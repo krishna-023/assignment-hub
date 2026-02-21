@@ -6,7 +6,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import ParticlesBackground from "./components/ParticlesBackground";
-
+import ChatBot from "./components/ChatBot";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
       <WhyChooseUs />
       <Footer />
       <FloatingWhatsApp />
+      <ChatBot />
     </>
   );
 }
