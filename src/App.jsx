@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import ParticlesBackground from "./components/ParticlesBackground";
 import ChatBot from "./components/ChatBot";
+import { Analytics } from "@vercel/analytics/next"
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <Footer />
       <FloatingWhatsApp />
       <ChatBot />
+      <Analytics />
     </>
   );
 }
