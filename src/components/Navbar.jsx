@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -46,7 +46,7 @@ function Navbar() {
         animate={{ y: [0, -5, 0] }}
         transition={{ repeat: Infinity, duration: 3 }}
       >
-        <img src={logo} alt="Assignment HUB Logo" className="logo-img" />
+        <img src={Logo} alt="Assignment HUB Logo" className="logo-img" />
         <span className="logo-tag">Assignment HuB</span>
       </motion.div>
 
